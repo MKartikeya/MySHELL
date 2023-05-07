@@ -1,0 +1,9 @@
+grep:
+   grep [OPTIONS]
+   1)grep [PATTERN] [FILES]    --searches for the pattern in all the trailing files.
+   2)grep -c                   --displays the countof matches found in the each file.
+   3)grep -l                   --displays list of a filenames only.
+   4)grep -h                   --doesn't display filenames before matches.
+   5)grep -o                   --prints only then patter matched at that line.
+   6)grep -v                   --prints all lines other than matches.
+   7)grep -n                   --displays line numbers.

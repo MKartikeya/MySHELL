@@ -1,0 +1,10 @@
+ls:
+   ls [OPTIONS]
+   1)ls -l 	         --list with long format - show permissions.
+   2)ls -t 	         --sort by time & date.
+   3)ls -s 	         --sort by size.
+   4)ls -lt 	      --sort by time & date and list with long format - show permissions.
+   5)ls -i 	         --list file's inode(index) number.
+   6)ls -g 	         --This allows you to exclude the owner and group information columns.
+   7)ls -Q 	         --Place double quotations around the entry names.
+   

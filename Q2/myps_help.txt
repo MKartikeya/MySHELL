@@ -1,0 +1,7 @@
+ps:
+   ps [OPTIONS]
+   1)ps              --Shows the processes for the current shell.
+   2)ps -a           --all with tty, except session leaders.
+   3)ps -e           --all processes.
+   4)ps -aF          --additional information.
+   5)ps -eF          --additonal information.

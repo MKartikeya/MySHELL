@@ -1,0 +1,8 @@
+mv:
+   mv [OPTIONS]
+   1)mv [SOURCE] [DEST]      --will move the content of source file into dest file. If the dest file doesn't exist,It'll be created.If dest name is of a folder it will be copied into the folder.
+   2)mv [SOURCES] [DEST]     --moves multiple source files into dest folder.If the dest folder doesn't exist,It'll be created.
+   3)mv -f                   --will overwrite by force.
+   4)mv -b                   --creates the backup of the destination file in the same folder with the different name and in different format.
+   5)mv -v                   --displays the source and the destination.
+   6)mv -n                   --returns if permissions do not support to write.

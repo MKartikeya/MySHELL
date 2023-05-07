@@ -1,0 +1,8 @@
+cp:
+   cp [OPTIONS]
+   1)cp [SOURCE] [DEST]       --will copy the content of source file into dest file. If the dest file doesn't exist,It'll be created.If dest name is of a folder it will be copied into the folder.
+   2)cp [SOURCES] [DEST]      --copies multiple source files into dest folder.If the dest folder doesn't exist,It'll be created.
+   3)cp -i                    --asks before overwriting the file.
+   4)cp -f                    --will overwrite by force.
+   5)cp -b                    --creates the backup of the destination file in the same folder with the different name and in different format.
+   6)cp -v                    --displays the source and the destinati

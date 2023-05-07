@@ -1,0 +1,58 @@
+
+cp:
+   cp [OPTIONS]
+   1)cp [SOURCE] [DEST]      --will copy the content of source file into dest file. If the dest file doesn't exist,It'll be created.
+   2)cp [SOURCES] [DEST]     --copies multiple source files into dest folder.If the dest folder doesn't exist,It'll be created.
+   3)cp -i                   --asks before overwriting the file.
+   4)cp -f                   --will overwrite by force.
+   5)cp -b                   --creates the backup of the destination file in the same folder with the different name and in different format.
+   6)cp -v                   --displays the source and the destination.
+
+mv:
+   mv [OPTIONS]
+   1)mv [SOURCE] [DEST]      --will move the content of source file into dest file. If the dest file doesn't exist,It'll be created.
+   2)mv [SOURCES] [DEST]     --moves multiple source files into dest folder.If the dest folder doesn't exist,It'll be created.
+   3)mv -f                   --will overwrite by force.
+   4)mv -b                   --creates the backup of the destination file in the same folder with the different name and in different format.
+   5)mv -v                   --displays the source and the destination.
+   6)mv -n                   --returns if permissions do not support to write.
+
+grep:
+   grep [OPTIONS]
+   1)grep [PATTERN] [FILES]   --searches for the pattern in all the trailing files.
+   2)grep -c                  --displays the countof matches found in the each file.
+   3)grep -l                  --displays list of a filenames only.
+   4)grep -h                  --doesn't display filenames before matches.
+   5)grep -o                  --prints only then patter matched at that line.
+   6)grep -v                  --prints all lines other than matches.
+   7)grep -n                  --displays line numbers.
+
+ls:
+   ls [OPTIONS]
+   1)ls -l 	                  --list with long format - show permissions.
+   2)ls -t 	                  --sort by time & date.
+   3)ls -s 	                  --sort by size.
+   4)ls -lt 	               --sort by time & date and list with long format - show permissions.
+   5)ls -i 	                  --list file's inode(index) number.
+   6)ls -g 	                  --This allows you to exclude the owner and group information columns.
+   7)ls -Q 	                  --Place double quotations around the entry names.
+
+ps:
+   ps [OPTIONS]
+   1)ps                       --Shows the processes for the current shell.
+   2)ps -a                    --all with tty, except session leaders.
+   3)ps -e                    --all processes.
+   4)ps -aF                   --additional information.
+   5)ps -eF                   --additonal information.
+
+
+OTHER COMMANDS available:
+   1) exit,quit,e,q           --to exit.
+   2) clear                   --to clear the screen.
+   3) cd                      --to navigate through directories.
+   4) hi,hello                --to display welcome text.
+   5) man cp                  --to display commands available.
+   6) man ls                  --to display commands available.
+   7) man mv                  --to display commands available.
+   8) man ps                  --to display commands available.
+   9) man grep                --to display commands available.  
